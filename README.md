@@ -8,6 +8,8 @@
 
 ## Az APK mappában található az android telefonra telepíthető app
 
+## APK letöltési link: [Drive link](https://drive.google.com/file/d/1O5Dg_WZLsM9yS78fsBiAyVj4ARINLl1G/view?usp=sharing) 
+
 Jelenleg egy ingyenes szerverre van deployolva a backend és az adatbázis. 60 napig érvényes, utána nem használható az applikáció. Csak ha új szervert készítünk, vagy fizetünk érte.
 
 ## Backend és frontend repo telepítési útmutatóval és dokumentációval
@@ -17,4 +19,4 @@ Jelenleg egy ingyenes szerverre van deployolva a backend és az adatbázis. 60 n
 
 ## Webes deploy (szintént 60 napig működik majd)
 
-- [fireball90.github.io](https://fireball90.github.io/)
+- [https://islanders-b7706.web.app/](https://islanders-b7706.web.app/)
