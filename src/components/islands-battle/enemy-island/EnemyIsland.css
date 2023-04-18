@@ -1,0 +1,69 @@
+.enemy-island {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-rendering: pixelated;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enemy-island .popover-body {
+    padding: 0;
+}
+
+.enemy-island .popover {
+    background-color: transparent;
+}
+
+.enemy-island .bg-pop {
+    padding: 1rem;
+    background-color: transparent;
+    background-image: url('../../../../public/images/ui/battle_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 232px;
+    height: 102px;
+}
+
+.enemy-island .popover-arrow {
+    visibility: hidden;
+}
+
+.enemy-island-hud {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.enemy-island-hud img {
+    width: auto;
+    image-rendering: optimizeQuality;
+    max-height: 73px;
+}
+
+.enemy-data {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.enemy-data .title {
+    padding: 0 0.5rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.enemy-data div:nth-child(2) {
+    flex-grow: 1;
+    padding: 0 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

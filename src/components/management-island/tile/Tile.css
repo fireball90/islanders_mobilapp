@@ -1,0 +1,7 @@
+.tile {
+    position: absolute;
+}
+
+.tile * {
+    image-rendering: pixelated;
+}

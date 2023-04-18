@@ -1,0 +1,109 @@
+
+.loading-screen {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../../public/images/ui/contentbg2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading-screen span {
+    color: white;
+    font-size: 1.4rem;
+}
+
+.login-container {
+    margin-top: 10px;
+    width: 500px;
+    height: 650px;
+    background-image: url('../../../public/images/sziget/login.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.login-img {
+    max-width: 410px;
+}
+.login-img2 {
+    max-width: 310px;
+}
+
+.btn-button1 {
+    width: 200px;
+    height: 50px;
+    background-image: url('../../../public/images/buttons/button_bg_1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(179, 9, 88);
+    margin-top: 5px;
+    background-color: transparent;
+    border: 0 rgba(255, 255, 255, 0);
+}
+.btn-button1:hover{
+    transform: scale(1.15,1.15);
+}
+
+.login-label{
+    text-shadow: 2px 2px black;
+    color: rgb(255, 217, 0);
+    font-size: 20px;
+}
+
+
+.login-input{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    font-size: 16px;
+    width: 300px;
+    border-radius: 10px;
+    overflow-wrap: break-word;
+}
+
+.login-link a{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-shadow: 1px 1px black;
+}
+.login-link a:hover{
+    color: rgb(255, 230, 0);
+}
+
+.login-error-msg{
+    font-size: 18px;
+    color: white;
+    text-shadow: 1px 1px black;
+    background-color: rgba(255, 0, 0, 0.6);
+    border-radius: 10px;
+    overflow-wrap: break-word;
+}
+.email-resend-container {
+    background-image: url('../../../public/images/ui/contentbg2.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 1.5rem;
+    border: 2px dashed rgb(170, 89, 13);
+    width: 30vw;
+    color: white;
+}
+.email-resend-close{
+    width: 300px;
+    height: 80px;
+    background-image: url('../../../public/images/ui/btn_bg_long.png');
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 0.5rem;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+    color: beige;
+}

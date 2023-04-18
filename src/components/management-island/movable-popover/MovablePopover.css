@@ -1,0 +1,12 @@
+.bg-pop{
+    background-image: url('../../../../public/images/ui/popupbg.png');
+    background-size: cover; 
+
+    background-color: rgba(153, 89, 29, 0);
+    width: 105px;
+    height: 105px;
+    padding-top: 1rem;
+    text-align: center;;
+    color: beige;
+    font-weight: 700;
+}

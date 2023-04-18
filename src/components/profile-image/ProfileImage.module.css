@@ -1,0 +1,40 @@
+.profile {
+    position: relative;
+}
+
+.level {
+    position: absolute;
+    top: 2.5rem;
+    right: 1.4rem;
+    width: 47px;
+    height: calc(1.25rem + .3vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile h4 {
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (max-height: 480px) {
+    .profile img{
+        width: 100px;
+    }
+    .profile h4 {
+        color: white;
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .level {
+        top: 1.4rem;
+        height: 14px;
+        right: 12px;
+        width: 26px;
+    }
+
+}

@@ -1,0 +1,44 @@
+
+.sell-btn{
+    background-image: url("../../../public/images/ui/btn_bg_2.png");
+    width: 200px;
+    height: 70px;
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+    color: aliceblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sell-all{
+    color: aliceblue;
+}
+
+#sell-form {
+    width: 400px;
+}
+
+.successful-sell-modal{
+    background-image: url("../../../public/images/ui/contentbg3.png");
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: rgba(240, 248, 255, 0);
+    width: 100%;
+    color: aliceblue;
+    padding: 20px;
+}
+.modal-sell-btn{
+    background-image: url("../../../public/images/ui/btn_bg_2.png");
+    width: 200px;
+    height: 70px;
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+    color: aliceblue;
+}
+
+@media only screen and (max-height: 480px) {
+    .sell-btn{
+        width: 160px;
+        height: 60px;
+    }
+}

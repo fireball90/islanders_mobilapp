@@ -1,0 +1,9 @@
+.battle-confirm-button {
+    width: 133px;
+    height: 53px;
+    background-image: url("../../../../public/images/ui/btn_bg_1.png");
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+    padding-bottom: 0.5rem;
+}

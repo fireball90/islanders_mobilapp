@@ -1,0 +1,118 @@
+
+.listing-container{
+    width: 95%;
+    background-color: rgba(0, 0, 0, 0.501);
+    height: 100px;
+    margin: 10px;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.listing-container img{
+    image-rendering: pixelated;
+}
+
+.market-btn{
+    background-image: url("../../../public/images/ui/btn_bg_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 70px;
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+    color: aliceblue;
+    text-shadow: 2px 2px black;
+    image-rendering: auto;
+}
+
+.market-delete-btn{
+    background-image: url("../../../public/images/ui/btn_bg_delete.png");
+    width: 130px;
+    height: 70px;
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+    color: aliceblue;
+    image-rendering: auto;
+}
+
+.market-update-btn{
+    background-image: url("../../../public/images/ui/btn_bg_update.png");
+    width: 130px;
+    height: 70px;
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+    color: aliceblue;
+    image-rendering: auto;
+}
+.market-height{
+    height: 100px;
+}
+
+.market-search-btn{
+    background-image: url("../../../public/images/ui/btn_bg_search.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 130px;
+    height: 80px;
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+    color: aliceblue;
+    text-shadow: 2px 2px black;
+    padding-bottom: 0.5rem;
+    image-rendering: auto;
+}
+
+.exchange-filters {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+@media only screen and (max-height: 480px) {
+    .market-delete-btn{
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100px;
+        height: 50px;
+        text-shadow: 2px 2px black;
+        padding-top:0.3rem;
+    }
+    .market-update-btn{
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100px;
+        height: 50px;
+        text-shadow: 2px 2px black;
+        padding-top:0.3rem;
+    }
+    .trade-img{
+        width: 50px;
+    }
+    .listing-container{
+        width: 95%;
+        background-color: rgba(0, 0, 0, 0.501);
+        height: 70px;
+        margin: 10px;
+        color: aliceblue;
+        border-radius: 10px;
+        padding: 0px;
+    }
+    .listing-container p{
+        margin: 0;
+    }
+    .market-btn{
+        width: 140px;
+        height: 50px;
+        font-size: 12px;
+        text-shadow: 2px 2px black;
+    }
+
+    .market-height{
+        height: 70px;
+    }
+    
+    .market-search-btn{
+        width: 100px;
+        height: 60px;
+        image-rendering: auto;
+    }
+}

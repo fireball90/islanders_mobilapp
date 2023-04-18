@@ -1,0 +1,108 @@
+{
+    "availableBuildingAreas": [
+        { "coordX": 5, "coordY": 7 },
+        { "coordX": 6, "coordY": 3 },
+        { "coordX": 15, "coordY": 11 },
+        { "coordX": 12, "coordY": 6 }
+    ],
+    "builtBuildings": [
+        {
+            "coordX": 10, 
+            "coordY": 9, 
+            "level": 1, 
+            "maxLevel": 3, 
+            "name": "Templom", 
+            "buildDate": "2022-12-17T02:05:00",
+            "description": "A templom növeli a kritikus támadások esélyét harc közben", 
+            "imagePath": "/assets/house-lvl-1.png", 
+            "coinsForUpdate": 100, 
+            "ironsForUpdate": 100, 
+            "stonesForUpdate": 100, 
+            "woodsForUpdate": 100, 
+            "productionInterval": 180000,
+            "lastCollectTime": "2022-12-17T01:00:00",
+            "produceCoinCount": 10,
+            "produceIronsCount": 10,
+            "produceStonesCount": 10,
+            "produceWoodsCount": 0
+        }
+    ],
+    "unbuiltBuildings": [
+        { 
+            "name": "Fatelep",
+            "coinsForBuild": 100,
+            "ironsForBuild": 20,
+            "stonesForBuild": 20,
+            "woodsForBuild": 20
+        },
+        {
+            "name": "Bánya",
+            "coinsForBuild": 100,
+            "ironsForBuild": 20,
+            "stonesForBuild": 20,
+            "woodsForBuild": 20
+        },
+        {
+            "name": "Kiképző hely",
+            "coinsForBuild": 100,
+            "ironsForBuild": 20,
+            "stonesForBuild": 20,
+            "woodsForBuild": 20 
+        },
+        {
+            "name": "Gyár",
+            "coinsForBuild": 100,
+            "ironsForBuild": 20,
+            "stonesForBuild": 20,
+            "woodsForBuild": 20
+        }
+    ],
+    "stats": {
+        "experiencePoints": 1,
+        "strength": 0,
+        "ability": 0,
+        "intelligence": 0
+    },        
+    "items": {
+        "woods": 1000,
+        "stones": 1000,
+        "irons": 1000,
+        "coins": 1000
+    },
+    "routeTiles": [
+        { "coordX": 6, "coordY": 8 },
+        { "coordX": 7, "coordY": 8 },
+        { "coordX": 8, "coordY": 8 },
+        { "coordX": 9, "coordY": 8 },
+        { "coordX": 10, "coordY": 6 },
+        { "coordX": 10, "coordY": 7 },
+        { "coordX": 10, "coordY": 8 },
+        { "coordX": 10, "coordY": 9 },
+        { "coordX": 11, "coordY": 6 },
+        { "coordX": 12, "coordY": 6 },
+        { "coordX": 13, "coordY": 6 },
+        { "coordX": 14, "coordY": 6 },
+        { "coordX": 11, "coordY": 8 },
+        { "coordX": 12, "coordY": 8 },
+        { "coordX": 13, "coordY": 8 },
+        { "coordX": 14, "coordY": 8 },
+        { "coordX": 15, "coordY": 8 },
+        { "coordX": 16, "coordY": 8 },
+        { "coordX": 16, "coordY": 9 },
+        { "coordX": 16, "coordY": 10 },
+        { "coordX": 17, "coordY": 10 },
+        { "coordX": 18, "coordY": 10 },
+        { "coordX": 19, "coordY": 10 },
+        { "coordX": 8, "coordY": 15 },
+        { "coordX": 9, "coordY": 15 },
+        { "coordX": 10, "coordY": 15 },
+        { "coordX": 10, "coordY": 16 },
+        { "coordX": 10, "coordY": 17 },
+        { "coordX": 10, "coordY": 18 }
+    ],
+    "sprites": [
+        "/assets/sprites/sprite-0001.png"
+    ],
+    "islandImagePath": "/assets/europian_island.png",
+    "experiencePoints": 100
+}

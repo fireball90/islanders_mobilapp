@@ -1,0 +1,45 @@
+.card-container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.card-container .card {
+    cursor: pointer;
+}
+
+.save-button-container {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.island-select-form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+.selectisland-card-bg{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px dashed rgb(145, 91, 21);
+    border-radius: 10px;
+}
+.select-text-bg{
+    background-color:rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.selectisland-btn{
+    background-image: url("../../../public/images/ui/btn_bg_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 80px;
+    background-color: transparent;
+    border: none;
+    color: beige;
+    text-shadow: 2px 2px black;
+    font-size: 18px;
+    padding-bottom: 0.5rem;
+}

@@ -1,0 +1,19 @@
+.building-notification {
+    position: absolute;
+    bottom: 1rem;
+    right: calc(50% - 9rem);
+    z-index: 2;
+    border-radius: 10px !important;
+    background-image: url('../../../../public/images/ui/contentbg2.png');
+    background-size: cover;
+    border: dashed 2px rgb(155, 98, 13) !important;
+}
+
+.building-request-close {   
+    width: 3.3rem !important;
+    height: 2.5rem;
+    border: none;
+    background-color: transparent;
+    background-image: url('../../../../public/images/ui/close.png');
+    background-size: cover;
+}

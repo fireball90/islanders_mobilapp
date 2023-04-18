@@ -1,0 +1,133 @@
+.next-level-building-card {
+    background-image: url('../../../../public/images/ui/build_card_2_shadow.png');
+    background-size: cover;
+    width: 210px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+}
+
+.next-level-building-card .title {
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next-level-building-card .sprite {
+    display: flex;
+    justify-content: center;
+    height: 122px;
+}
+
+.next-level-building-card .sprite img {
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.next-level-building-card .footer {
+    height: 64px;
+}
+
+.building-modal .modal-content {
+    border-radius: 0.5rem !important;
+    background-image: url('../../../../public/images/ui/contentbg2.png');
+    background-size: cover;
+    color: white;
+}
+
+.building-modal .modal-title {
+    text-align: center;
+    width: 100%;
+}
+
+.close {
+    height: 3rem;
+    width: 3rem;
+    background-image: url('../../../../public/images/ui/close.png');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background-color: transparent;
+    border: none;
+}
+
+.next-level-building-sprite {
+    width: 4rem;
+    height: 4rem;
+    image-rendering: pixelated;
+}
+
+.stat-container{
+    width: 10rem;
+    background-color: rgba(0, 0, 0, 0.418);
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: rgb(131, 70, 20);
+    border-style: dashed;
+    font-weight: 500;
+}
+
+.build-question-btn{
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+    padding: 0px;
+    margin: 0px;
+}
+
+.build-question-btn img{
+    width: 50px;
+    height: 50px;
+}
+
+.upgrade-button {
+    background-image: url("../../../../public/images/ui/btn_bg_1.png");
+    background-size: contain;
+    width: 130px;
+    height: 55px;
+    border: none;
+    background-color: transparent;
+}
+
+
+@media only screen and (max-height: 480px) {
+    .next-level-building-card {
+        width: 160px;
+        height: 200px;
+    }
+
+    .upgrade-button {
+        width: 100px;
+        height: 40px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    .next-level-building-card .title {
+        height: 68px;
+    }
+
+    .next-level-building-card .sprite {
+        height: 104px;
+    }
+
+    .next-level-building-card .footer {
+        height: 68px;
+    }
+
+    .next-level-building-card .title h4 {
+        font-size: 1rem;
+    }
+
+    .build-question-btn img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .building-modal {
+        overflow: hidden !important;
+    }
+}

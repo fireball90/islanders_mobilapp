@@ -1,0 +1,29 @@
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buildings {
+    gap: 1rem;
+    align-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: calc(100% / 3 * 2);
+    overflow-x: auto;
+}
+
+.abilityPoints {
+    align-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-grow: 1;
+}

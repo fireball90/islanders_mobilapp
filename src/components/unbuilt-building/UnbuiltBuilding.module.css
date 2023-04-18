@@ -1,0 +1,119 @@
+.building {
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 210px;
+    height: 260px;
+    background-image: url('../../../public/images/ui/build_card_2_shadow.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.building img {
+    image-rendering: pixelated;
+    height: 100%;
+    width: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.buttonGroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.header {
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12px;
+}
+
+.body {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    height: 66px;
+}
+
+.buildButton{
+    background-image: url("../../../public/images/ui/btn_bg_1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 133px;
+    height: 53px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+    text-shadow: 2px 2px black;
+}
+
+.questionButton{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    background-image: url('../../../public/images/ui/kerdojel_btn.png');
+    background-size: cover;
+}
+
+@media only screen and (max-height: 480px) {
+    .lock {
+        position: absolute;
+        top: 50px;
+        left: 12px;
+        height: calc(100% - 104px);
+        width: calc(100% - 22px);
+        backdrop-filter: grayscale(100%);
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .building img {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    
+    .building {
+        width: 100%;
+        height: auto;
+        max-width: 160px;
+        height: 200px;
+    }   
+    .building h4{
+        font-size: 1rem;
+    }
+
+    .header {
+        height: 52px;
+    }
+    
+    .body {
+        height: 92px;
+    }
+    
+    .footer {
+        height: 50px;
+    }
+
+    .questionButton {
+        height: 35px;
+        width: 35px;
+    }
+
+    .buildButton {
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+    }
+}

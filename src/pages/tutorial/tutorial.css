@@ -1,0 +1,120 @@
+
+.information{
+    background-color: rgba(139, 86, 17, 0.336);
+    padding: 30px; 
+    border-radius: 20px;  
+    color: aliceblue;        
+}
+
+.information p{
+    font-size: 130%;
+    text-align: justify;
+}
+
+.makers{
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.tcard-body{   
+    margin-top: 10px;    
+}
+
+.card-img-fluid{    
+    width: 10vw;
+    margin-top: 6px;
+}
+
+.tcard-title{
+    font-size: 130%; 
+}
+
+.tcard-name{
+    font-size: 130%; 
+    margin:0;
+}
+
+.tcard-text a{
+    text-decoration: none;
+    color: lightblue;
+}
+
+.modal-game-container{
+    background-image: url("../../../public/images/ui/contentbg2.png");
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: rgba(0, 136, 255, 0);
+    color: aliceblue;
+    padding: 20px;
+}
+.slot-machine{
+    width: 550px;
+    height: 250px;
+    background-image: url("../../../public/images/slot/slot_machine.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slot-btn{
+    background-image: url("../../../public/images/slot/slot_btn_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 70px;
+    background-color: transparent;
+    border: none;
+    padding: 1rem;
+}
+.slotbg img{
+    width: 110px;
+}
+.close-slot-btn{
+    background-image: url("../../../public/images/ui/btn_bg_delete.png");
+    background-size: cover;
+    width: 130px;
+    height: 70px;
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+    color: aliceblue;
+}
+.winnings-img{
+    height: 40px;
+}
+@media only screen and (max-height: 480px) {
+    .card-img-fluid{    
+        width: 15vw;
+    }
+    .information p{
+        font-size: 100%;
+        text-align: justify;
+    }
+    .tcard-title{
+        font-size: 100%; 
+    }
+    
+    .tcard-name{
+        font-size: 100%; 
+        margin:0;
+    }
+    
+    .tcard-text a{
+        text-decoration: none;
+        color: lightblue;
+    }
+    .slotbg img{
+        width: 75px;
+    }
+    .slot-btn{
+        width: 150px;
+        height: 70px;
+        background-color: transparent;
+        border: none;
+    }
+    .slot-machine{
+        background-size: cover;
+        height: 190px;
+    }
+    .winnings-img img{
+        max-width: 400px;
+        height: 40px;
+    }
+}

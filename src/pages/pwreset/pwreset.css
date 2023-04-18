@@ -1,0 +1,58 @@
+
+.pwreset-container {
+    margin-top: 10px;
+    width: 500px;
+    height: 600px;
+    background-image: url('../../../public/images/sziget/pwreset.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    image-rendering:pixelated;
+}
+
+.pwreset-img {
+    max-width: 410px;
+}
+.pwreset-img2 {
+    max-width: 310px;
+}
+
+.btn-button-reset {
+    width: 200px;
+    height: 50px;
+    background-image: url('../../../public/images/buttons/button_bg_2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    margin-top: 5px;
+    background-color: transparent;
+    border:rgba(0, 0, 0, 0);
+}
+.btn-button-reset:hover{
+    transform: scale(1.15,1.15);
+}
+.pwreset-label{
+    text-shadow: 2px 2px black;
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+}
+
+.pwreset-input{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    font-size: 16px;
+    width: 300px;
+    border-radius: 10px;
+    overflow-wrap: break-word;
+}
+
+.pwreset-link a{
+    color: rgb(255, 17, 0);
+    font-size: 16px;
+    font-family: 'Rubik Dirt', cursive;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+}
+.pwreset-link a:hover{
+    color: rgb(182, 24, 24);
+}

@@ -1,0 +1,111 @@
+.blur {
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(2px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    padding: 4rem 2rem 0 2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.popup {
+    background-image: url('../../../public/images/ui/contentbg2.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-top-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    animation: myAnim 0.5s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    padding: 1rem 0;
+}
+
+h2 {
+    color: white;
+}
+
+.close {
+    width: 4rem;
+    height: 4rem;
+    background-image: url('../../../public/images/ui/close.png');
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: -0.5rem;
+    right: -0.5rem;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    position: relative;
+}
+
+.body {
+    padding: 1rem;
+    background-color: rgba(139, 86, 17, 0.336);
+    height: 100%;
+    overflow: auto;
+    display: flex;
+    margin: 1rem 1rem 0 1rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+
+@media only screen and (max-height: 480px) {
+    .container {
+        padding: 2rem 1rem 0 1rem;
+    }
+    .title{
+        padding: 0.5rem;
+    }
+    .title h3{
+        font-size: 20px;
+        color: aliceblue;
+    }
+    .close {
+        width: 3rem;
+        height: 3rem;
+    }
+}

@@ -1,0 +1,70 @@
+
+.myprofile-data{
+    width: 100%;
+    box-sizing: border-box;    
+}
+
+.myprofile{
+    margin: 0;
+    font-weight: bold;
+}
+
+ .User{
+    margin-bottom: 2rem;
+ }
+
+ .modifies{
+    margin-top: 1rem;
+ }
+
+ .User h2{  
+    text-align: center;
+ }
+
+ .reset-password{
+    text-align: center;
+    color: beige;
+   }
+   
+ .reset-password p{
+   margin: 1rem 0 0 0;
+ }  
+
+ .reset-password label{
+   font-size: 85%; 
+ }
+
+.modifies-btn{
+    background-image: url("../../../public/images/ui/btn_bg_2.png");
+    width: 200px;
+    height: 75px;
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+    color: aliceblue;
+    font-size: x-large;
+}
+.text-profile{
+   color: beige;
+   padding: 2rem;
+   padding-bottom: 1rem;
+}
+.text-label{
+   color: beige;
+   font-size: 22px;
+   padding: 10px;
+}
+
+@media only screen and (max-height: 480px) {
+   .text-profile{
+      padding: 1rem;
+      padding-bottom: 0.5rem;
+      font-size: 18px;
+   }
+   .text-label{
+      font-size: 16px;
+      padding: 5px;
+   }
+   .User h2{  
+      font-size: 20px;
+   }
+}

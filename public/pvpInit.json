@@ -1,0 +1,45 @@
+{
+    "player": {
+        "experiencePoints": 300,
+        "availableTalentPoints": 20,
+        "strength": 0,
+        "ability": 0,
+        "intelligence": 0,
+        "churchLevel": 1,
+        "battleAvailableDate": "2023-05-30T20:31:00" 
+    },
+    "enemies": [
+        {
+            "playerId": 1,
+            "username": "Bot_John_1204",
+            "sprite": "/assets/europian_enemy_island.png",
+            "experiencePoints": 10,
+            "xPosition": 0,
+            "yPosition": 0
+        },
+        {
+            "playerId": 2,
+            "username": "Magn_12C3",
+            "sprite": "/assets/indian_enemy_island.png",
+            "experiencePoints": 10,
+            "xPosition": 2,
+            "yPosition": 1
+        },
+        {
+            "playerId": 3,
+            "username": "NaHik1",
+            "sprite": "/assets/japan_enemy_island.png",
+            "experiencePoints": 10,
+            "xPosition": 0,
+            "yPosition": 2
+        },
+        {
+            "playerId": 4,
+            "username": "BOT_Martin",
+            "sprite": "/assets/viking_enemy_island.png",
+            "experiencePoints": 10,
+            "xPosition": 4,
+            "yPosition": 1
+        }
+    ]
+}

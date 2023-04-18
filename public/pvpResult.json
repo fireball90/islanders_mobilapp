@@ -1,0 +1,72 @@
+{
+    "won": true,
+    "loot": {
+        "woods": 20,
+        "stones": 3,
+        "irons": 43,
+        "coins": 5,
+        "experiencePoints": 18
+    },
+    "battleReports": [
+        {
+            "attackerUsername": "Magn_12C3",
+            "attackerMessage": "Az ellenség sok embert vesztett!",
+            "attackerDamage": 18,
+            "enemyRemainingHealth": 152,
+            "enemyUsername": "NaHik1",
+            "enemyMessage": "A meglepetés támadás sikeres volt!",
+            "enemyDamage": 51, 
+            "attackerRemainingHealth": 119
+        },
+        {
+            "attackerUsername": "Magn_12C3",
+            "attackerMessage": "Megfelelő stratégiát választott!",
+            "attackerDamage": 24,
+            "enemyRemainingHealth": 128,
+            "enemyUsername": "NaHik1",
+            "enemyMessage": "Bekerítette az ellenfél csapatait!",
+            "enemyDamage": 27, 
+            "attackerRemainingHealth": 92
+        },
+        {
+            "attackerUsername": "Magn_12C3",
+            "attackerMessage": "Elkerülhetetlen csapást mért!",
+            "attackerDamage": 24,
+            "enemyRemainingHealth": 128,
+            "enemyUsername": "NaHik1",
+            "enemyMessage": "A meglepetés támadás sikeres volt!",
+            "enemyDamage": 27, 
+            "attackerRemainingHealth": 92
+        },
+        {
+            "attackerUsername": "Magn_12C3",
+            "attackerMessage": "Az ellenfél rosszul védekezett!",
+            "attackerDamage": 23,
+            "enemyRemainingHealth": 105,
+            "enemyUsername": "NaHik1",
+            "enemyMessage": "Az ellenség sok embert vesztett!",
+            "enemyDamage": 26, 
+            "attackerRemainingHealth": 66
+        },
+        {
+            "attackerUsername": "Magn_12C3",
+            "attackerMessage": "Isten megjutalmazott az imádságaidért!",
+            "attackerDamage": 23,
+            "enemyRemainingHealth": 82,
+            "enemyUsername": "NaHik1",
+            "enemyMessage": "A meglepetés támadás sikeres volt!",
+            "enemyDamage": 26, 
+            "attackerRemainingHealth": 40
+        },
+        {
+            "attackerUsername": "Magn_12C3",
+            "attackerMessage": "A meglepetés támadás sikeres volt!",
+            "attackerDamage": 24,
+            "enemyRemainingHealth": 47,
+            "enemyUsername": "NaHik1",
+            "enemyMessage": "Az ellenfél rosszul védekezett!",
+            "enemyDamage": 28, 
+            "attackerRemainingHealth": -13
+        }
+    ]
+}

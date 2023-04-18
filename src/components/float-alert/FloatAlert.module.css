@@ -1,0 +1,13 @@
+.container {
+    position: fixed;
+    width: 560px;
+    top: 1rem;
+    left: calc(50vw - 280px);
+    animation-name: display;
+    animation-duration: 0.4s;
+}
+
+@keyframes display {
+    from {transform: scale(0.92);}
+    to {transform: scale(1);}
+}

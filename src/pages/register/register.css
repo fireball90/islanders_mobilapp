@@ -1,0 +1,80 @@
+
+.register-container {
+    margin-top: 10px;
+    width: 460px;
+    height: 800px;
+    background-image: url('../../../public/images/sziget/register.png');
+    background-repeat: no-repeat;
+    background-size: contain;    
+}
+
+.register-img {
+    max-width: 410px;
+}
+.register-img2 {
+    max-width: 310px;
+}
+
+.btn-button3 {
+    width: 200px;
+    height: 50px;
+    background-image: url('../../../public/images/buttons/button_bg_3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px rgb(179, 9, 88);
+    margin-top: 5px;
+}
+.btn-button3:hover{
+    transform: scale(1.15,1.15);
+}
+
+.register-label{
+    text-shadow: 2px 2px black;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.register-input{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    font-size: 16px;
+    width: 300px;
+    border-radius: 10px;
+    overflow-wrap: break-word;
+}
+
+.register-link a{
+    color: aliceblue;
+    font-size: 16px;
+    text-shadow: 1px 1px black;
+}
+.register-link a:hover{
+    color: rgb(255, 230, 0);
+}
+.reg-error-msg{
+    font-size: 18px;
+    color: white;
+    text-shadow: 1px 1px black;
+    background-color: rgba(255, 0, 0, 0.6);
+    border-radius: 10px;
+    overflow-wrap: break-word;
+}
+.successful-register-modal{
+    background-image: url("../../../public/images/ui/contentbg3.png");
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: rgba(240, 248, 255, 0);
+    width: 100%;
+    color: aliceblue;
+    padding: 20px;
+}
+.modal-register-btn{
+    background-image: url("../../../public/images/ui/btn_bg_2.png");
+    width: 200px;
+    height: 70px;
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+    color: aliceblue;
+}

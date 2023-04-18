@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Frijole&family=Permanent+Marker&family=Press+Start+2P&family=Rubik+Dirt&display=swap');
+/*
+font-family: 'Frijole', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Rubik Dirt', cursive;
+*/
+
+.error-container {
+    margin-top: 10px;
+    width: 720px;
+    height: 720px;
+    background-image: url('../../../public/images/sziget/errorkep.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    image-rendering: pixelated;
+}
+.error-img {
+    margin-top: 70px;
+    max-width: 610px;
+    justify-content:space-between;
+}
+.error-link a{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-shadow: 2px 2px black;
+}
+.error-link a:hover{
+    color: rgb(255, 0, 0);
+}
+.error-div{
+    height: 250px;
+}
